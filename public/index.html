@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FF5722" />
+    <meta
+      name="description"
+      content="AIRISS v4.0 - OK금융그룹 AI 기반 직원 성과/역량 스코어링 시스템"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- OK체 폰트 선언 -->
+    <link rel="preload" href="%PUBLIC_URL%/fonts/OKMedium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="%PUBLIC_URL%/fonts/OKBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="%PUBLIC_URL%/fonts/OKLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    
+    <style>
+      @font-face {
+        font-family: 'OKFont';
+        src: url('%PUBLIC_URL%/fonts/OKBold.ttf') format('truetype'),
+             url('%PUBLIC_URL%/fonts/OKBold.otf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      @font-face {
+        font-family: 'OKFont';
+        src: url('%PUBLIC_URL%/fonts/OKMedium.ttf') format('truetype'),
+             url('%PUBLIC_URL%/fonts/OKMedium.otf') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      @font-face {
+        font-family: 'OKFont';
+        src: url('%PUBLIC_URL%/fonts/OKLight.ttf') format('truetype'),
+             url('%PUBLIC_URL%/fonts/OKLight.otf') format('opentype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      /* 글로벌 폰트 적용 */
+      body {
+        font-family: 'OKFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+    
+    <title>AIRISS v4.0 | OK금융그룹 AI HR System</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
